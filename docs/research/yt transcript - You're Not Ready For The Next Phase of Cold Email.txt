@@ -1,0 +1,1903 @@
+Okay, I'm going to be honest with you. I
+
+
+don't think that you're ready for the
+
+
+next phase of cold email. And I don't
+
+
+think most people sending cold emails
+
+
+right now are ready for it either
+
+
+because the game is changing extremely
+
+
+quickly. And what worked even 6 months
+
+
+ago is barely working right now. But the
+
+
+good news is is that this doesn't have
+
+
+to be a death sentence for your outbound
+
+
+sales. You can be one of the few who
+
+
+sees this coming, adjusts early, and
+
+
+actually benefits from it. And if you're
+
+
+wondering why you should listen to me,
+
+
+I'm in the trenches of cold email every
+
+
+single day. We've sent multiple seven
+
+
+figures of emails, and we're seeing
+
+
+exactly what's changing in real time,
+
+
+but more importantly, what's starting to
+
+
+work instead. So, in this video, I'm
+
+
+going to be breaking down the seven
+
+
+biggest shifts in cold email that I see
+
+
+coming so that you can keep your emails
+
+
+landing in the inbox and still get
+
+
+replies. All right, shift number one is
+
+
+simple. Reply rates are dropping. Check
+
+
+out these numbers. Back in 2019, about
+
+
+8.5% of people would reply to cold
+
+
+emails. And by 2023, it dropped down to
+
+
+7%. Then in 2024, it's down to 5.8%. And
+
+
+this is based off of Belelkins analyzing
+
+
+over 16.5 million emails. And now in
+
+
+2025, it's around 5%. That's a 15% drop
+
+
+every year for six straight years in a
+
+
+row. And here's what really blew my
+
+
+mind. Belkins found that every single
+
+
+month in 2024 was worse than the same
+
+
+month in 2023. Why is this happening?
+
+
+Well, pretty simple. Decision makers are
+
+
+just getting absolutely buried. We're
+
+
+talking, you know, hundreds of emails
+
+
+every single day that they are getting
+
+
+and spam filters are getting way
+
+
+smarter. And then everyone is starting
+
+
+to use things like chat GBT to write all
+
+
+their emails. So now they sound the
+
+
+exact same. Here's the problem. If
+
+
+you're doing cold email the same way you
+
+
+did back in 2022, your results are
+
+
+quietly falling apart. And you probably
+
+
+don't even realize yet because what
+
+
+worked 18 months ago is literally
+
+
+getting 15% worse results today. And I'm
+
+
+seeing agencies watching their book
+
+
+meetings dropped. I'm seeing clients
+
+
+getting frustrated and they have zero
+
+
+clue what actually changed. So what do I
+
+
+think is going to happen in 2026?
+
+
+Honestly, I think that 15% decline is
+
+
+just going to continue, if not get
+
+
+harder and harder. The math points to
+
+
+reply rates being around 4% by the end
+
+
+of next year. But here's what I really
+
+
+think is going to happen. There's going
+
+
+to be a massive gap between the best
+
+
+senders and the average senders. The top
+
+
+people, they're still going to be
+
+
+getting 15 to 25% reply rates. And the
+
+
+average people, they're going to be
+
+
+stuck at 1 to 4%. And the reason I think
+
+
+this is is because 80% of the people are
+
+
+just going to give up when it gets too
+
+
+hard. They're going to quit because it's
+
+
+going to be too hard to get replies for
+
+
+their emails, which leaves massive
+
+
+opportunity for the 20% who actually
+
+
+figure out this new rule. It's exactly
+
+
+what happens when Google Ads gets more
+
+
+complicated with SEO, with social media.
+
+
+When something gets hard, people bail.
+
+
+The smart ones stay and completely
+
+
+dominate because there's way less
+
+
+competition. So, here's what you can do
+
+
+to crush it. Stop sending huge generic
+
+
+lists instead of getting a list of
+
+
+10,000 SAS founders. Find people based
+
+
+off of trigger events or a specific job
+
+
+function and get a smaller list that you
+
+
+can be more relevant towards. And I mean
+
+
+really personal and really relevant.
+
+
+Also, make sure you're tracking your
+
+
+reply rates. That's going to be most
+
+
+important. and just accept the fact that
+
+
+you need to send smarter emails, not
+
+
+just more emails. Again, the answer
+
+
+isn't blasting more. It's about getting
+
+
+precise. Shift number two is just less
+
+
+sends per inbox. The rules have
+
+
+completely changed in 2024 and 2025. But
+
+
+here's one thing. Most people are still
+
+
+following advice from 2022, and it's
+
+
+killing them, and it's killing their
+
+
+results with outbound. It used to be
+
+
+totally safe to send 200 emails per day
+
+
+from one inbox. Some people were even
+
+
+doing more than that. Now you're looking
+
+
+at 30 emails per day max per email,
+
+
+maybe 50 if you're being really careful,
+
+
+but honestly, we're seeing around 30
+
+
+being the actual safety number. February
+
+
+2024, Gmail and Yahoo made these new
+
+
+bulk sender requirements and instantly
+
+
+has a whole guide explaining what
+
+
+changed. Basically, you need SPF, DKIM,
+
+
+and Demar authentication, and you need
+
+
+your spam compliant rate to stay below
+
+
+a.1%.
+
+
+So then in May 2025, Microsoft joined in
+
+
+and did the same thing for Outlook. And
+
+
+right now, Profit Outreach put out
+
+
+research saying that you absolutely
+
+
+cannot send more than 30 to 50 emails
+
+
+per mailbox per day. The problem is if
+
+
+you're sending 100, 150 or 200 emails
+
+
+per inbox because some YouTube guru told
+
+
+you to do that back in 2022, you're
+
+
+actively destroying your sending
+
+
+reputation. And that means you're not
+
+
+going to get any responses in your
+
+
+replies and ultimately grow your
+
+
+business. Because one bad week of high
+
+
+volume is going to crash your sender
+
+
+reputation, meaning all of your future
+
+
+emails are going to go straight to spam,
+
+
+which means you basically have to start
+
+
+completely over with brand new domains
+
+
+again. And most people only realize they
+
+
+have a problem when it's too late, when
+
+
+they're not getting any more replies.
+
+
+So, what do I think is going to happen
+
+
+in 2026? Well, I think email providers
+
+
+are going to start giving you different
+
+
+daily limits based off of how much
+
+
+people actually engage with your emails.
+
+
+Like if people are reading your emails
+
+
+and replying, maybe you can get to send
+
+
+50, 75, or even 100 per day. But if
+
+
+people are ignoring your emails and
+
+
+deleting them, you might get throttled
+
+
+way down to only 20 per day or even
+
+
+less. And the reason I think this is is
+
+
+because Gmail already tracks all of
+
+
+this. They can see exactly how many
+
+
+people engage with your emails. They
+
+
+have all the data they need sitting
+
+
+right there. And honestly, it solves
+
+
+their whole problem. Good senders can
+
+
+grow and scale. bad senders get
+
+
+automatically blocked before they become
+
+
+an issue for their users. What you need
+
+
+to do in order to crush it is you've got
+
+
+to completely change your math. Instead
+
+
+of 10 inboxes sending, you know,
+
+
+[clears throat] 100 emails every single
+
+
+day, which is super risky, you need
+
+
+something like 70 inboxes sending 30
+
+
+emails. Same total volume, just way
+
+
+safer. And you can use instantly's inbox
+
+
+rotation feature if you're on growth or
+
+
+hyperrowth plan, and you get unlimited
+
+
+email accounts. So, use them, spread
+
+
+your volume across way more inboxes, and
+
+
+be safe. Another thing to make sure is
+
+
+that you're warming up your inboxes for
+
+
+2 to 4 weeks before you send any real
+
+
+campaigns and keep the warm-up running
+
+
+forever. Do not turn it off. And
+
+
+Instantly has this built right in, so
+
+
+it's super super easy, and they'll even
+
+
+test and make sure that it's being safe.
+
+
+The next shift that we seeing are
+
+
+smaller lists are winning. The whole
+
+
+send everyone strategy that I used to
+
+
+love, it's completely dead. Look at what
+
+
+the actual data shows us. Lists under 50
+
+
+people are getting a 5.8% reply rate on
+
+
+average. And lists over a thousand are
+
+
+getting less than 2%. That's almost
+
+
+three times worse when you send to the
+
+
+big lists. And this is after hunter.io
+
+
+studied 11 million emails. And Digital
+
+
+Bloom, they also confirmed the same
+
+
+thing in their analysis. And here's why
+
+
+this is happening. Gmail is watching
+
+
+what happens when you send emails. Let's
+
+
+say you send 10,000 emails and you only
+
+
+get 200 replies back. Gmail's algorithm
+
+
+thinks, "Okay, people clearly don't want
+
+
+emails from this person." And then your
+
+
+future emails, they're going to get
+
+
+filtered out automatically. But if you
+
+
+send 50 emails or less emails and get
+
+
+more replies, Gmail thinks, "Oh, people
+
+
+actually like emails from this person."
+
+
+Then your future emails land right in
+
+
+the primary inbox, which is where you
+
+
+want them. The problem I see with so
+
+
+many senders is they try to go for this
+
+
+huge volume for a short-term game. But
+
+
+every single time you blast 10,000
+
+
+people with the same generic email,
+
+
+you're getting three times worse the
+
+
+results in the moment. And you're also
+
+
+training Gmail's algorithm that your
+
+
+emails basically suck. And that follows
+
+
+you around. Most people are just in this
+
+
+mindset of we need to send 10,000 emails
+
+
+per week because that's what I'm
+
+
+promising my clients. But those 10,000
+
+
+emails with a 2% reply rate could be
+
+
+significantly improved if we focus on
+
+
+quality over quantity. So what do I
+
+
+think is going to happen in 2026? I
+
+
+think Gmail is going to start tracking
+
+
+what they'll probably call list quality.
+
+
+So, if you keep sending to these huge
+
+
+lists with low engagement, they're going
+
+
+to flag your entire domain as a bulk
+
+
+sender and all of your emails are going
+
+
+to get filtered and even the really good
+
+
+ones to people who actually want to hear
+
+
+from you. And my guess is that the only
+
+
+way to stay in the inbox is going to be
+
+
+keeping your list smaller than maybe
+
+
+what you're used to and optimizing for
+
+
+at least a 3 to 7% reply rate, maybe
+
+
+even higher. And the reason they do this
+
+
+is because it protects their users,
+
+
+which is literally their job. So, here's
+
+
+what you need to do in order to crush.
+
+
+Build smaller campaigns that are more
+
+
+relevant rather than trying to go for
+
+
+the masses. Instead of a list of 100,000
+
+
+SAS founders, pull people based off of
+
+
+their job title. Instead of a list of
+
+
+100,000 dentists, segment the list by
+
+
+relevance. That could be location. That
+
+
+could be a trigger event based off of
+
+
+the buying intent. that could be
+
+
+technology that they use, etc., etc. I
+
+
+would much rather have you build more
+
+
+campaigns with the list that you have
+
+
+spread out across those campaigns than
+
+
+one campaign that you're sending the
+
+
+same generic message to that you're
+
+
+going to get at the end of the day less
+
+
+reply rates from the data. The next
+
+
+shift that we're seeing based off of
+
+
+data is that only two emails work. So,
+
+
+everyone used to say, you know, you need
+
+
+to send seven follow-ups or persistence
+
+
+is key or whatever. Well, that advice
+
+
+when it comes to cold email is
+
+
+completely ruining campaigns. Belkins,
+
+
+they analyze 49,000 email sequences. And
+
+
+here's what they found. They found that
+
+
+your first email only gets around, let's
+
+
+just call it 3% reply rates. You add one
+
+
+follow-up, you jump to 4.8%. That's a
+
+
+60% boost. Pretty good. You add a second
+
+
+follow-up, you boost to 5.8%. It's
+
+
+another 21%. Still pretty solid. But
+
+
+then you add a third follow-up, your
+
+
+reply rate actually drops by 20%. It
+
+
+goes down. And if you add a fourth
+
+
+follow-up, it drops by another 55%.
+
+
+you're getting way worse results. And
+
+
+here's what's wild. In 2023, that third
+
+
+email used to help you, but in 2024, it
+
+
+started hurting you. And Digital Boom
+
+
+confirmed this. That after three emails,
+
+
+reply rates decline because spam
+
+
+complaints and unsubscribes are going to
+
+
+increase. That is a direct quote from
+
+
+them. So, here's the problem. You think
+
+
+that you're being professional and
+
+
+persistent by sending five, six, seven
+
+
+follow-ups, but actually what you're
+
+
+doing is you're annoying people and
+
+
+you're getting way more spam complaints
+
+
+and you're training Gmail's algorithm
+
+
+that you're basically a spammer and
+
+
+you're getting fewer replies than if you
+
+
+just stop earlier and basically you're
+
+
+damaging your ability to send any future
+
+
+campaigns. The old sales advice of
+
+
+fortune is in the follow-up is now the
+
+
+literal opposite of true when it comes
+
+
+to cold email. What do I think is going
+
+
+to happen in 2026? Well, I think Gmail
+
+
+is going to start actively penalizing
+
+
+people who just keep emailing someone
+
+
+who's clearly ignoring them. So, like if
+
+
+someone ignores your first two emails,
+
+
+every future email you send to that
+
+
+person is automatically going to get
+
+
+pushed way down their inbox. Here's what
+
+
+you need to do in 2026. Send two emails
+
+
+maximum, then stop. Email number one is
+
+
+your best shot. And then email number
+
+
+two, wait three or four days, send one
+
+
+follow-up with a different angle, not
+
+
+just a bumping this up, a completely
+
+
+different approach, then stop. No email
+
+
+three, no email four. Make those two
+
+
+emails actually count. And if they don't
+
+
+respond to those two emails, try a
+
+
+totally different channel like LinkedIn
+
+
+or wait 90 days and try with a brand new
+
+
+angle. Shift number five that we're
+
+
+seeing is the rise of AI slop. So AI was
+
+
+supposed to help you personalize emails
+
+
+at scale, but instead what's actually
+
+
+happening is it's making everyone sound
+
+
+generic at scale. Here's the data. 63%
+
+
+of B2B marketers are now using AI to
+
+
+write their emails. In spam filters,
+
+
+they can actually detect AI writing now
+
+
+by looking at these specific patterns
+
+
+like how you use your verbs, your
+
+
+sentence structures, how many pronouns
+
+
+you're using. And there's research from
+
+
+sign direct on this. And the result of
+
+
+all this is that every single cold email
+
+
+starts basically the same way. I noticed
+
+
+you recently. I saw your post about or
+
+
+congrats on or I came across your
+
+
+profile. People can instantly tell it's
+
+
+a template. It feels fake. And what's
+
+
+worse is that spam filters can actually
+
+
+detect this stuff. Now, we are
+
+
+triggering spam filters when we do this
+
+
+and we are losing trust with the
+
+
+prospects because they can tell it's not
+
+
+real. What do I think is going to happen
+
+
+in 2026? Well, I think Gmail is going to
+
+
+roll out an actual AI detection built
+
+
+right into their spam folders. Emails
+
+
+that score high for being AI generated
+
+
+are going to automatically get moved to
+
+
+the promotions tab or just filtered out
+
+
+completely. And here's the irony. Using
+
+
+AI to write your cold emails is actually
+
+
+going to make them less likely to land
+
+
+in the inbox. The thing that's supposed
+
+
+to help us might actually be hurting
+
+
+this. And why do I think this? Well,
+
+
+Google already has some of the best AI
+
+
+detection technology in the whole entire
+
+
+world. And they use it for their search
+
+
+quality. They use it for catching ad
+
+
+fraud and they use it for everything.
+
+
+The research shows you can detect AI
+
+
+written text with over 90% accuracy. In
+
+
+Gmail, well, they can definitely do this
+
+
+too if they wanted. And as AI generated
+
+
+spam becomes the majority of all spam,
+
+
+which it will, Gmail is going to need to
+
+
+filter it specifically. Plus, from a
+
+
+user experience standpoint, most people
+
+
+actually don't like obviously AI
+
+
+generated cold emails. It feels super
+
+
+impersonal and spammy. So basically,
+
+
+Gmail wins by filtering these out.
+
+
+Here's what you can do to crush it,
+
+
+though. Use AI for your research part,
+
+
+not the writing part. Here's what I
+
+
+mean. Use AI to help find trigger
+
+
+events. Use AI to write personal lines
+
+
+or personal emails per person, not for
+
+
+the whole segment that you're reaching
+
+
+out to. Don't have it write the same
+
+
+email for a thousand people. I like to
+
+
+use AI to maybe be a little bit more
+
+
+relevant, but I'm not going to use AI to
+
+
+write my whole email and make it sound
+
+
+robotic. So, I'll actually just use
+
+
+Instantly's AI feature where I can come
+
+
+up with personalized lines or
+
+
+personalized emails that are actually
+
+
+relevant to what I'm selling in
+
+
+valuebased for the consumers right then
+
+
+and there inside of the tool. And then I
+
+
+can actually fact check it, make it sure
+
+
+it doesn't sound like a robot and it
+
+
+sounds humanlike and prompt it to be
+
+
+humanlike and I'll play around with
+
+
+that. Art shift number six is going to
+
+
+be the rise of multi-channel. Cold email
+
+
+by itself as a standalone thing is
+
+
+getting tougher. But cold email as one
+
+
+part of a multi-channel strategy, that's
+
+
+where all the winners are right now.
+
+
+Look at these numbers. Email alone gets
+
+
+you around a 2.1% reply rate. That's
+
+
+what Hunter.io found. But email plus
+
+
+LinkedIn plus video, 280% higher
+
+
+engagement. Prospects are literally
+
+
+eight times more likely to respond to
+
+
+you when you contact through them
+
+
+through three or more different
+
+
+channels. And that's from profit
+
+
+outreach research. And get this, only 5%
+
+
+of people are actually doing this right
+
+
+now. So why does this work better? Well,
+
+
+it's pretty straightforward. Decision
+
+
+makers are getting hundreds of cold
+
+
+emails every single day, and their email
+
+
+inbox is absolutely packed. And it's
+
+
+super easy to ignore just one email. But
+
+
+it's really hard to ignore the same
+
+
+person showing up in your email, then on
+
+
+LinkedIn, then sending you a
+
+
+personalized video. Like, at that point,
+
+
+you're being a real human being, not
+
+
+just another text message in their
+
+
+inbox. Here's the problem that I see a
+
+
+lot of people making is the reality is
+
+
+is you're fighting against 99 other
+
+
+emails sitting in the inboxes of your
+
+
+ideal customers. If you're just showing
+
+
+up in one single place, you're not going
+
+
+to have the success you would if you
+
+
+were showing up in three different ways.
+
+
+Let's just look at some basic math. You
+
+
+send a,000 emails, you get 2% replies,
+
+
+that's 20 replies. But you send 500
+
+
+emails plus LinkedIn plus video, you get
+
+
+8% replies, that's 40 replies. You sent
+
+
+half the emails and got double the
+
+
+meetings. Plus, you're protecting your
+
+
+deliverability by sending way fewer
+
+
+emails in the first place, which is what
+
+
+we talked about before. So, if you're
+
+
+still doing email only in 2026, you're
+
+
+literally leaving 75% of your potential
+
+
+results sitting on the table. What do I
+
+
+think is going to happen in 26? Well, I
+
+
+think email only is probably going to
+
+
+drop to 1.5% reply rates as inboxes are
+
+
+going to get even more crowded. But
+
+
+multi-channel is going to become the
+
+
+absolute minimum standard. Like,
+
+
+everyone who's serious will be doing
+
+
+multi-channel approach and multi-channel
+
+
+outbound. And the best performers are
+
+
+going to be using multiple channels to
+
+
+get the top tier results. This is really
+
+
+simple math. Reply rates are dropping
+
+
+15% every single year, but multi-channel
+
+
+isn't dropping at that same rate because
+
+
+only 5% people are actually doing.
+
+
+There's way less people crowding it. So,
+
+
+as email gets worse and worse, all the
+
+
+smart people are going to shift to
+
+
+multi-channel. And this creates
+
+
+basically two completely different
+
+
+groups. You've got the sophisticated
+
+
+multi-channel people getting 8 to 12%
+
+
+reply rates. We've got the lazy email
+
+
+only people who are getting stuck at 1
+
+
+to 2% replies. That gap is going to keep
+
+
+growing and growing. So, here's what you
+
+
+can do. Use your email as your
+
+
+foundation, not your whole strategy. And
+
+
+instantly, now you can set up triggers
+
+
+based off of events inside of instantly
+
+
+to also trigger outbound from LinkedIn.
+
+
+Meaning, if someone doesn't reply on
+
+
+your cold emails, then you can have it
+
+
+automatically send a connection request
+
+
+and then a message after that. You want
+
+
+to be thinking integration, not
+
+
+separation. So the more that we can
+
+
+integrate our channels, our outbound
+
+
+channels, the more success we're going
+
+
+to have. And the other thing that you
+
+
+should be testing out is sending Loom
+
+
+videos or personalized videos to these
+
+
+prospects based off of again trigger
+
+
+events. So highintent prospects, we
+
+
+should be leveraging video in order to
+
+
+do that. Whether that's a Loom video,
+
+
+whether that's a personalized video,
+
+
+obviously based off of the data is
+
+
+proven to be a really really successful
+
+
+strategy in 2026 as we head that way.
+
+
+And last but not least, and shift number
+
+
+seven is that AI is basically going to
+
+
+read all of your emails first. This one
+
+
+is huge and most people are completely
+
+
+missing it. Your prospect isn't reading
+
+
+your emails first anymore. Their AI
+
+
+assistant is reading it and is going to
+
+
+start deciding whether it's even worth
+
+
+showing to them. Forester put out their
+
+
+2026 predictions and they're saying that
+
+
+20% of B2B sellers will be forced to
+
+
+engage in agent-led quote negotiations.
+
+
+That's a direct quote. They also found
+
+
+that 61% of companies are already using
+
+
+AI to help make purchasing decisions
+
+
+right now today. And another report on
+
+
+B2B sales trends says that next year
+
+
+your buyer may not be the one answering
+
+
+your call. It could be their AI agent.
+
+
+So before you reach a human decision
+
+
+maker and AI could be the one filtering
+
+
+out your outreach, summarizing your
+
+
+offer and comparing it to competitors.
+
+
+We think that we are sitting here
+
+
+writing for humans and we're thinking
+
+
+about what a human wants to read. But an
+
+
+AI gatekeeper is going to start reading
+
+
+our emails first and deciding if a human
+
+
+should even see it. If the AI flags your
+
+
+email as generic sales stuff, one of
+
+
+three things going to happen. It's going
+
+
+to get autodeleted and never seen. It's
+
+
+going to get buried in some weekly
+
+
+summary of filtered emails where it's
+
+
+going to get lost in the noise or it
+
+
+gets compared to 10 of your competitors
+
+
+and you're going to lose because you are
+
+
+being generic. The AI doesn't care about
+
+
+your clever opening line. doesn't care
+
+
+about how friendly your tone is. It's
+
+
+literally just checking a few things. Do
+
+
+you have specific numbers in here? Is
+
+
+there clear, concrete value? Is this
+
+
+relevant to what they're actually doing
+
+
+right now? Is this sender actually
+
+
+legitimate or are they spam? And most
+
+
+cold emails that people are sending
+
+
+today that I see would get autodeleted
+
+
+by an AI that's trained to protect
+
+
+someone's time. So, what do I think
+
+
+that's going to happen in 2026? Well, AI
+
+
+assistants are going to be in 20% of the
+
+
+company's inboxes by the end of 2026.
+
+
+But in tech companies and SAS companies,
+
+
+I think it's going to be bigger and
+
+
+bigger, like 40 to 50% adoption. And
+
+
+here's what I think these AI assistants
+
+
+are actually going to do. They're going
+
+
+to create two lists, approved senders
+
+
+and block senders. If your first two or
+
+
+three emails get flagged as low value,
+
+
+all your future emails from your entire
+
+
+company are going to get autodeleted
+
+
+before a human ever sees them. And the
+
+
+reason I think this is because Forester
+
+
+is a massive research company and
+
+
+they're literally putting their
+
+
+reputation on the line predicting a 20%
+
+
+adoption of something like this. And the
+
+
+technology already exists right now.
+
+
+Tools like Harvey.ai and Lindy. Are
+
+
+building exactly this type of thing. And
+
+
+61% of companies already told
+
+
+researchers they're using AI for
+
+
+purchasing decisions. So the demand is
+
+
+clearly there. And for whitelist
+
+
+blacklist ideas, just think about it
+
+
+logically. If you're an AI and your job
+
+
+is protecting your boss's time and you
+
+
+see the same senders keep sending those
+
+
+same generic emails that never get any
+
+
+responses, why would you keep forwarding
+
+
+them to your boss? You wouldn't. You
+
+
+would just autodelete them. It's the
+
+
+efficient solution and it makes total
+
+
+sense. Here's what we need to do to
+
+
+crush it. We need to start thinking
+
+
+about how to write for machines first.
+
+
+And here's what I mean. And it kind of
+
+
+goes with what I've been saying. Like a
+
+
+bad example that's going to get filtered
+
+
+is we help companies completely
+
+
+transform their sales process with
+
+
+innovative solutions that drive growth.
+
+
+Filtered, right? Bad. Good examples. We
+
+
+helped three SAS companies, this
+
+
+company, this company, this company
+
+
+increase their demos booked from four
+
+
+per week to 12 per week in 30 days by
+
+
+fixing their domain authentication setup
+
+
+and inbox strategy rotation. Blah blah
+
+
+blah blah blah. Something more specific
+
+
+and relevant. And really, at the end of
+
+
+the day, it kind of follows what I've
+
+
+been saying this whole time. It's going
+
+
+to be less is more, relevancy wins,
+
+
+multi-channel is going to be your go-to.
+
+
+Focus on messages that are going to
+
+
+actually increase your deliverability,
+
+
+and you should have success passing
+
+
+something like an AI agent that's going
+
+
+to be reviewing your emails before they
+
+
+even get to the decision maker's inbox.
+
+
+I mean, I'm already seeing the AI work
+
+
+for me inside of my inbox, and it's
+
+
+giving me a summary, so I can decide
+
+
+right then and there, and it's only
+
+
+going to get better and better. At the
+
+
+end of the day, cold email is not dying,
+
+
+but the old way of doing it is going to
+
+
+completely die out. The people that are
+
+
+going to lose in 2026 are the ones still
+
+
+doing what worked back in 2022. The bar
+
+
+is higher now, which means few people
+
+
+are going to clear it. And that means if
+
+
+you actually adapt to these new rules,
+
+
+you're going to absolutely crush it
+
+
+while everyone else is just sitting
+
+
+there watching their campaigns
+
+
+mysteriously die and have no idea what
+
+
+is happening. That's exactly how cold
+
+
+email is changing. But you can click on
+
+
+this video on the screen to learn
+
+
+exactly what to do this year to win.
+
+
+Everything from structuring your offer,
+
+
+how big your lead lists need to be, and
+
+
+the technical setup you need to get into
+
+
+the inbox. I'll see you over there.

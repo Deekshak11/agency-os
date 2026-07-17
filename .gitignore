@@ -1,0 +1,12 @@
+.env
+.env.*
+credentials.json
+token.json
+token*.json
+**/credentials/**
+tokens/
+data/
+*.csv
+__pycache__/
+.venv/
+.opencode/node_modules/

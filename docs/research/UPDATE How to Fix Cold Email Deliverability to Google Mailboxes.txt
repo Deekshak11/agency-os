@@ -1,0 +1,418 @@
+All right. Over the past month, Google has absolutely screwed us. Delivering cold emails to Google mailboxes has
+become near impossible with Google's new wave of updates. So, myself and the
+other industry giants in the cold email space have been running lots of tests. We've been talking to each other
+non-stop to figure out what each other are doing, what's working, and there's some recommendations in this video,
+which is going to be an interview with our top deliverability coach at the insiders. He's the guy that I turn to
+when I need help with deliverability. I don't understand something, something big happens. So, you're what you're
+about to see is an interview with a good friend, Tony Baltadano, and me and Tony are going to talk about the test that
+I'm running, the test that he's running, and the test that everybody else in the industry that's either running cold
+email infra companies or cold email agencies are running, what's working right now. You're not going to want to
+miss this interview. There's a lot of really amazing gold dropped as well as
+my secret what I'm doing for our high ticket clients in the short term while Google deliverability is affected to
+still keep our reply rates at 3 4% in many cases and I'm going to be sharing that towards the end of the interview
+and you are not going to want to miss it. Without further ado, here is the interview. All right, so over the past
+couple months, cold email world has gone through a pretty turbulent time to say the least. Google has released a suite
+of updates that caused legacy panels to go down and pretty much immediately afterwards released a deliverability
+update that's made cold email just a little bit harder to to reach those Google mailboxes. Uh so I wanted to chat
+with you Tony. Um and for those listening, Tony is the founder of Mission Inbox. He's also a
+deliverability coach here with Lead Genj Insiders. And whenever I don't know an
+answer or something big happens, Tony's usually the guy that I turn to cuz he is at the forefront of the testing, the
+infrastructure and deliverability. So, thanks for chatting me with this uh chatting with me about this, Tony. I
+really want to get to the bottom of this, not just for myself and all of our cold emails, but the thousands of people
+listening that trust me with, you know, cold email infrastructure and knowledge. So, thank you for spending some time
+with me, Tony. Tony, what are you seeing? So yeah, first foremost uh Jay, thanks for having me. I think what we
+have seen lately has to do mostly with things that have always been a best
+practice in general, things like the engagement rate, things like you know having a low spam rate etc being
+enforced in a way more strict manner than any any time in the past. So the essence of code email in my opinion
+hasn't really changed that much. The only thing that's changed is that in the past Google was way more loose when it
+came down to their regulations to their policies and now because again code email is such a great channel to send
+emails from or to you know build revenue and pipeline um everybody started doing it and they have to start removing the
+bad actors from the equation. It doesn't mean that you shouldn't send cold emails. It means that you should have to adapt into the new way of doing it by
+following best practices, cleaning your lid list, writing good engagement copy, all that stuff. Um we have seen again in
+the past I would say two to three weeks um especially with Black Friday and Cyber Monday coming up. Um definitely um
+the scarcity in terms of responses across every single client but this is a seasonality thing that has happened for
+the last 5 years that I've been in the market literally seeing that that exact same thing which is during Thanksgiving
+during the holiday season in general the majority of the e-commerce businesses start blasting emails out because that's
+where they make the majority of the revenue for the whole year. So what ends up happening is Google and Outlook know
+that that's going to happen that billions of emails will be blasting out. So they tied on the spam filters to
+prevent people from being spammed by all these promotions from the different websites that they have subscribed to.
+That of course ends up impacting you know our our normal cold emails which have nothing to do with transactional marketing emails. But it's a stem filter
+as a whole that has silent dump, right? Generally by by end of of December,
+start of January, it loosens, right? So that's why you see like a super high bump in responses by January, but it's
+something normal, right? So I just wanted to share that because I know people are usually concerned besides the out of offices, you know, why am I not
+getting as many responses as in the past? And that is actually the correct answer to do it. And who this sucks for the most I feel
+like is the people who are just starting to send cold emails. they they they just joined the program right now. They're
+just trying to build their systems right now because you set up all your mailboxes, you think you're doing the right thing, you're following all my
+advice. And then you turn your system on and you're inboxing 0% to Google and it's like, you know what, this
+sucks. Uh so I I I feel for those people and I've been there. But for me, how
+Tony, how long have you been sending cold emails? So I've been sending since early 2020.
+No, not 2020. 2017 is when I started my career sending emails on the on the cold email side of things and then full
+infrastructure starting on 2020. I've also been sending a little little over 10 years and I've seen a lot of big
+changes happen. So for those that have just started sending and are having a hard time inboxing to Google. I'm sure
+you remember when this happened with Microsoft whether it was 2023 2024 0%
+nobody could get through to Microsoft. They had lifted their spam filters so high, their guardrails so high that in
+order to get through, not only did you have to have everything else dialed, you had to send like two sentence emails.
+And since since that point, I mean, now we're inboxing 100% to Microsoft. So, a
+lot of these guard rails, these transitory periods where it's really hard are are just that they're
+transitory. And I think what what you what you said, the way you described it was really helpful. It's that they're
+trying to filter out the bad actors. are trying to get people out of the cold email world and I think this is a good
+way to do it. Um, but I we usually see these things start to return back to normal. We change our practices a little
+bit and then we're back in business. But I' I'd love to talk to you specifically
+about infrastructures that are working and infrastructure changes uh DNS records providers Google, Microsoft,
+SMTP, and I'd love to talk to you about any tests that either you or anyone else
+in the industry is running to get around these new guard rails. Uh to to see, you know, what people are doing, what's
+working, and if there are going to be any big shifts in gold standards, I want to know what those are. Uh so let's
+start with infrastructure. um any any big changes you're seeing there? So in terms of infra um I actually did
+another webinar um last week with the people from inbox kit and also email bison where we're talking about all these different things. Again I can talk
+mostly with expert opinion on SMTP infrastructure. However Google I can only get what I'm seeing from my clients
+campaigns. However, um Saksham from from Inbox was able to help us with very
+interesting information regarding Google mailboxes um in the sense that H mailboxes tend to outperform mailboxes
+that have just started out. And this is something that I've said multiple times in the past, right? The more an email
+has sent emails, call it warm-up emails, the more it builds reputation. And it seems that Google has enforced a policy
+within the first three months where the mailbox is the most vulnerable. So if you want to think about it in a simpler
+analogy, think of it as a newborn, right? Within the first, let's say, year or so, that newborn's going to be, you
+know, getting the shots of vaccines, uh, you have to be really, really mindful of their health, etc. It seems that the
+same way is happening with Google where a lot of people think that just like 3 weeks is enough and generally it is as
+long as whenever you get to send your campaigns, you have a good engagement, you have many good responses, whether a
+positive or negative response, any response is good. Um that is a main metric that Google is now looking into
+and it seems that if you have passed those three months of Google mailbox inboxing right like get giving you good
+results those mailboxes can last you for up to a year without having to replace it right so it's a very interesting
+thing that we are seeing where even with SMTP infrastructure um I was sharing like my screen um back at that webinar
+and we have clients sending with the same mailboxes inbox in both in Google and in Microsoft from mailboxes created
+in February of this year by creating subdomains and everything else, right? Like it was it was very interesting to see that because normally you wouldn't
+expect the mailbox to last more than 3 months, but it seems like if you're able to pass those three months where you
+know mailboxes just keep on inboxing, Google will now, let's say, promote you in a sense, right? Like, hey, this is a
+good sender. I'm going to start showing it to more people on their inbox. So, that is the main thing that I'm seeing on the Google mailboxes. Very, very
+interesting data. Mailbox, we're not talking about domain age. We're talking about mailbox age.
+Exactly. Exactly. And it follows like it it correlates in a sense, but you can create a brand new mailbox on an H
+domain that it's not going to perform as good as a domain that has sent for over three months, especially from Google
+mailboxes. SMTP is a little bit of a different story, but three months of creating a Google account and showing
+Google within those three months, hey, I'm not a spammer. Like I'm actually sending mindful emails. I'm getting responses from the people that I'm sending it to. That really shows and
+shoots up your deliverability for, you know, months to come. So for Google, people can consider maybe extending that
+warm-up period for an extra month, an extra two months, and that could be the solution. Uh, and that's the the changes
+to gold standards that we could be reaching from conversations like this. Uh, which is why they're so important.
+Like Google makes a change, we make a change, maybe we extend the warm-up from two weeks to four weeks, from two weeks
+to six weeks, and that makes the biggest difference. So we'll we'll find out. we're still very much in like the
+learning and testing phase with these new updates as I'm sure you and and all of us are. Uh so that that's a good
+insight. Uh any anything else what uh that you're seeing with infrastructure DNS records, domains,
+fill us in. So regarding DNS records, I think the only thing that has been like a good practice for the past I would say six to
+maybe eight months has been to set up your demark to quarantine. Um usually mailbox provider would normally set you
+up to P equals none. um that basically says, "Hey, I have a policy, but don't
+enforce anything." A P equals quarantine means, "Hey, if somebody's spoofing or damaging my email or trying to, you
+know, impersonate me, please move it into the spam folder." I wouldn't go directly with reject. I've done testing
+where we start off with reject even from the warm-up. It doesn't seem to be as successful as with just a P equals quarantine. So this is just a
+recommendation on our side where you can start off at P equals none but as soon as you send your emails out you have to
+make it look more trustworthy and that is when you know changing that small little setting where P equals none just
+move it to quarantine and that should improve the deliverability a little bit especially for enterprise type of recipients. So that is what we have
+seen. Um, another update in the past I think you know we've always talked about
+Google caring about domain reputation and your engagement and Microsoft caring about IP reputation and domain age. What
+we have seen though and and for the first time we've actually gotten like confirmation from Google specifically is
+that in the past you would only go into the Google spam folder if enough people marked you as spam. That means that I
+could have just been getting zero responses that if nobody, you know, opened my emails or sent anything, they wouldn't move me into my spam folder.
+What we have seen now with the Google update policy and I can share screen if you want on on that, you know, sharing links and everything. Um, it seems like
+Google is now penalizing emails that are not engaged with. So what that means is
+that if you have a 0% response rate for you know let's say quite some time now and you're sending one specific set of
+copy that copy can end up burning without you even going or getting a single response not because you're
+getting marked as spam but because you're not getting engagement so what I've seen the clients to be the most
+successful in the past few weeks is writing copy that is extremely conversational right so one of the main
+things that I see from people just starting out is they try to be like supermarkety or very salesy in a way.
+Even if they're removing spam words, it looks like a very salesy email. The moment that you start doing more
+conversational copy and call to actions that invite for a conversation, you increase your engagement and therefore
+Google is now going to send your emails into the spam folder just because nobody opened them. So again, just as a before
+and after, in the past, you wouldn't go into the spam folder because people would not engage with you. Nowadays,
+you're going to slowly get filtered as spam if people do not engage with your copy or with your emails that you're
+sending. So, it's super important and a very interesting uh piece of data that I I've had my suspicions on, but I we've
+never had conf confirmation directly from Google that that is now a thing. Okay. People are hitting the spam filter
+if they're not getting replies at all. Let me ask you this because this is a practice that I've kind of secretly taught uh but never publicly because I'm
+still not fully sure. Um, but maybe maybe you can confirm it for me. When using a tool like Instantly and their
+free warm-up service, turning the reply rate, I think they recommend 30%.
+Cranking that bad boy up to like 90 95%. What are your thoughts there?
+So, I agree. If anything, my usual warm-up settings, my recommended warm-up settings was start off at 40 emails per
+day. Oh, sorry, not 40 emails per day. Start at a 40% reply rate. Yeah. Can you imagine? now 40% reply
+rate and then once you get to send your cold emails out bump it up to 80% so that in the eyes of the ESTs you
+increase your volume but your reply rate didn't change because you're sending almost a onetoone ratio from one to the other now if you want to simplify things
+just put it at 80% like if you were to download a mailbox from mission inbox the warm-up settings are going to be 80% from the get-go um whether you upload it
+into instantly smartly the mail plus 5 like that is basically a setting that we are now doing we've actually done it for
+I would say like the a good portion of the year since like May of this year uh where we bumped it up and we have seen a
+better reply rate especially because the majority of instantly form employees Google accounts it really boosts central deliverability.
+Okay, very good. Let's talk briefly about infrastructure since that's what a lot of people are going to be curious
+about. Google versus Microsoft versus SMTP. Uh and let me take my best shot at
+explaining SMTP for those that aren't familiar. Um, SMTP is the same method that like Active
+Campaign or Mailchimp uses to send bulk emails. They're just using their IP addresses. Um, instead of like a Google
+IP address or a Microsoft IP address. And the better the quality of that IP address, the more likely that that email
+is going to land in the inbox, which is when I you want to send a a promotional email to a list of 20,000 people. Um,
+Active Campaign, Mailchimp, it's probably going to land in the inbox or in the promotions tab. it's probably not going to spam cuz they keep their IP
+addresses so clean and they won't let you cold email from there for that same reason because you're going to the cold emailers are going to ruin those IP
+addresses. Uh good SMTP providers should essentially do the same thing. Uh you're
+sending with your IP addresses, the mission inbox IP addresses. And the higher quality that SMTP service,
+usually the higher quality the IP addresses, the more likely that that email is going to land in the inbox.
+Obviously, there's a million other factors. domain age, copy, who you're sending to. Uh, but the big difference
+is you're not using Google's IPs. You're not using Microsoft's IPs. You're using an IP range that you have bought and
+that you're in charge of protecting and keeping keeping clean. How did I do?
+Great. Well, done. Awesome. Uh, so there's a lot of different SMTP services out there. I always regard mission inbox as the
+Ferrari of cold email mailboxes. One, because they're not as cheap as some as the other ones, but they're uh equally
+effective. Um, so with that being said, SMTP verse Microsoft verse Google, is it
+making any difference with the current issue of getting into the inbox of Google? So for Google recipients, yes,
+the answer would be yes. We're equally as affected as everybody else. If the user doesn't adapt to the best
+practices, and I think that is the main thing that is important to note here. Whether you use mission inbox, whether you use Microsoft um Ashure or Microsoft
+direct mailboxes or Google resellers or Google direct accounts, who you're sending to is the rule. And if you don't
+follow that specific rule, you're going to get screwed, right? So as soon as people, again, and this is part of the
+communication that we tell our customers in terms of education, is guys, show us the copy you're sending. Let's try to
+see how it looks. Let's try to do placement testing with this copy and let me reward it like word by word so that
+it has the same thing. and it has the same essence. We run a placement test even with their own Google mailboxes and we see everything landed in the inbox
+folder yet again. Right? So I don't think that there is a big difference in terms of of reply rate um as as a whole.
+Like if you're sending from any provider the same copy to the same recipients, you're most likely going to see the same issues repeating over and over again.
+And it doesn't mean that cold email is that now. It just means you have to adapt to the new rules. Uh but even SNTP
+on our side is not doesn't have like a like a white flag that just says yeah yeah you you can pass yeah you shouldn't
+follow the rules or things haven't affected you. No of course it affects everyone and we have seen every single
+other mailbox provider also being equally as sensitive to the new updates. So, it's just a matter of changing your
+copy, which honestly I think it's a good thing because it falls on you as a copywriter or you as a lead generation
+agency owner to adapt, right? Like it's not an infrastructure issue. It is more a copyrightiting issue. And that is what
+a lot of people think that, you know, infrastructure is just a magic wand that allows you to get into the inbox folder
+for no reason. No, you still have to follow best practices. And the the best practices for copyrightiting, what you're actually
+sending in that email have continued to evolve. I mean, when I started sending emails, we were tracking opens. We were
+including links and images, and we were sending this tool called Clicksend. We would send to 50,000 people at one time
+with their IP addresses. It would all inbox. It was just nuts. Um, now, and
+then I saw some changes started to gradually happen. No more links in the emails, no more images in the emails, no
+more unsubscribe links, no more words that could be flagged as spam or promotional. You don't want to say like
+sale or money. uh because those are going to be spammy phrases that are going to be filtered into spam. Then we
+started using a lot of spin tax. Then we got rid of any form of unsubscribe altogether. Then we it's just crazy. It
+continues to get like shorter, more whittleled down and more restrictions. One test that I heard from one of the
+members of my community, he's like this is working every time is completely AI
+written emails. He's saying spin tax is no longer enough. uh because the phrases that he's interchanging in those spin
+tags could be being flagged or banned or recognized. So, he's actually using uh
+Clay or NAN to custom write each email with AI, which is not something I want to teach my community because that's not
+easy to do. It's not very accessible. Um but I'm wondering if that's a test you're familiar with, you've seen, or
+where you see the new kind of copy gold standards going. So I I think you brought a great point
+and this is something that I'll probably take like two to three minutes to really respond in depth. I do think well first
+and foremost in essence as a core making sure that every individual email is different because you're creating copy
+with AI is extremely important right if no email looks alike then if somebody marks you as spam it's just marking one
+specific like set of words that doesn't correlate to any other email that you're sending and therefore you can keep on
+inboxing for a larger period of time at the same time one of the the quickest traps that I see people fall into is
+thinking that just by personalization And by you getting into the inbox folder that you're going to get responses.
+And what I mean by that is we've actually we saw a test from Taylor Herren uh who is an agency owner who was
+sending emails with full AI um and then emails with no AI in terms of of
+personalization and he was getting four times the responses with no personalization on the
+copy on the AI component. Why is that the case? I think it is not necessarily
+because the copy that he created with AI was bad. I think it's just not as relevant. Usually give time to AI to
+hallucinate and that is not necessarily a good thing. So I think the sweet spot is how do you find a way to communicate
+your message as quickly and as easily as possible without necessarily creating a super long email just because
+AI decided to do some like weird research, right? So deliverability wise, it's definitely a good practice. it will
+you will keep on seeing inbox in the response rates though which is what we care about usually ends up getting
+affected the moment you try to personalize or overpersonalize your copy. So as long as you can make it
+relevant and short within the AI prompt that's pretty much the sweet spot that you can find for having great results as
+scalable results and not having to worry about deliverability as often. Completely agree with that. That's what I teach too. If you're going to use AI
+personalization one word or two words. Don't try and do any anything crazy cuz it's probably going to mess up most of
+the time and hurt your copy more than it helps. But I'm wondering if the variability could be key. Um cuz
+I'm I'm looking at some of the copy my my uh insiders are sending me and yeah, they're using spin tax. They're not
+using any flagged words, but there's long phrases that are being um alternated in that spin tax. I'm like,
+you know what? it is totally possible that enough of these are marked as spam and that entire phrase could be
+blacklisted. Uh so it's it's one thing we're we're following very closely. Um and that I mean I'm I hope it's not the
+new gold standard that you have to AI generate every new email. I I always think about okay what is the Armageddon
+of cold email look like? Like what is the worst case scenario where we have to go like back to the stone ages to
+automate cold email and I'm like browser automation. I have computers running in
+each room and they're just logged into into Gmail accounts and just using browser automation to copy and write
+text and send those emails. Yeah, there's no there's no way they can ever block that. I mean, that's as about
+as gold standard normal behavior. Normal behavior. And right now there's like ooth
+connections to link your Gmail to to a lot of these platforms. There's fingerprints that that Google or
+Microsoft knows are there and could easily take action against. The question is which fingerprint are they looking
+at? Are they uh I don't know what what are your thoughts on the fingerprints? So fingerprints are important if it's a
+very obvious tail. So some things that we have seen is whatever you're sending for example via OOTH uh via Google or
+even with Microsoft there is almost no trace absolutely no trace that it was
+sent through call it a sequencer of any sort. If you're sending via connection
+of a mailbox via app, password or via SMTP and IMP which by the way guys like Google Outlook use SMTP and IMAP.
+They're just big categories of their own or big providers. So they're considered just Google and Outlook. Um we have seen
+that if you're not sending the API that ends up being added into the email headers. um specifically within there's
+like AWS um 147 IP that it usually gets added within brackets is involve
+fingerprint but again if you were to send via oath nothing like you don't see
+any of that fingerprint now that being said I think again we see it more often
+because we're in the cold email space however if you were to take a look into the volume of emails that you're really
+sending or that every cold emailer sends on a daily basis it's most likely a very very small percentage compared to the
+total volume of what Google or Outlook sent on a daily, right? So, what we know for a fact and this effect, the let's
+say spam um team at Google, what they care about the most is actually spoofing and fishing, not necessarily just like
+going and killing people on the cold email game. So, again, whenever they do something on the spoofing and fishing, they end up affecting us, but you know,
+by association, not because they did something directly to us, because to your point, if they wanted to ban code email, they could easily do that. like
+we see for example the the wordings or the phrases that our warm-up tools give us right like the unique identifiers
+Google can automatically just decide to do that u kill it and then just you know prevent anything from being sent out so
+they have the power I think we're just a very small percentage of people that is
+because we're in the space we see it a lot often with our friends with our colleagues so we think that it's the big thing but the majority of the time that
+Google really spends on on their spend filters is actually to prevent spoofing and fishing and scams If anything,
+we just association when they lift the filters high enough, which I think is what's happening right
+now with Google, it's what happened last year with Microsoft. Yeah. They probably kill all the the spoofers, the fishers,
+a lot of the bad cold emailers, but they probably also end up affecting a lot of actual people trying to send cold
+emails. Yes. Maybe that just launched a company and they just bought a domain and they
+didn't set up their DNS records quite right. I mean, it happens all the time. And now they're all of a sudden not able
+to to send cold email to their their vendors and clients. So, I feel like while they're catching a lot of us and
+the spoofers and the spammers, they're also going to be affecting a lot of their real users, which is not what they
+want to do, which is why the guard rails end up coming back down at some point. Uh, so that's I agree. We saw it with Microsoft
+specifically, right? like the the update that we saw back in October 2024,
+nobody could send to out to Microsoft to Outlook. It was like a big big deal that nobody would ever get a response from
+Outlook. And then even their own Outlook users started saying, "Guys, I'm not seeing my messages from my procurement or from my
+vendors like what's really going on." So again, I think overall it always ends up normalizing after usually six to seven
+months. And I wouldn't be surprised if we have yet another update maybe on February of next year. Again, there's
+nothing announced, but I wouldn't be surprised because that's what the industry has done. It's either Google
+changing something or Outlook changing something. Thankfully, it's never been both at the same time, right? Otherwise,
+we would be rotally screwed on that. But it's just a matter of adapting to it.
+The other thing that I've learned from these the historical updates is that what they say is the new best practice
+is not actually what you should do. Exactly. Yes. Which is something a lot of people mess up like, oh, I read the
+update. what Google published. They want an unsubscribe header and everything. They want an unsubscribe down below.
+What during the the last big update, that's exactly what we started off doing. And we're like, "Oh, why aren't
+the cold emails going through?" Lo and behold, you remove all those unsubscribed links and the emails start going through again. Uh so, just
+something for new cold emailers to to to think like, "Oh, why are you going against what Google says the new best
+practices are?" because they're not their best interest isn't us getting through to every inbox.
+Their their best interest is in preventing cold email from happening altogether.
+Uh, okay. I've got a uh some tests that we're running. I've got a way something
+that I'm telling my insiders and my high ticket clients to do and uh in this current time to kind of get around
+things uh deal with deal with it for the time being without completely killing your cold email campaigns. Uh I I'll
+share that in a second, but I'm wondering who you're talking to, what tests you're running, um any results that you're seeing in terms of copy or
+practices or cadences or changes you're making. what are the what are the experiments going on in the world right
+now that we're all looking at and and testing hypothesis. So I think something super important
+here is we've always recommended usually a three-step sequence right like you
+have everything within the same thread now no different like subject lines otherwise that will create a different thread. I think that's still the gold
+standard um overall, especially with the new engagement um that Google has offered, right? Like if they say
+whatever you're sending, if you don't get responses, you're going to be penalized. So people are not necessarily being as focused on just having a a
+super long sequence of maybe four to five steps just to get a response out of someone because if they have ignored
+your emails for five times, most likely they're either going to mark you as spam just by nature or they're going to keep on ignoring you and that hurts your
+deliverability. So that is the first thing that I would recommend. If you have more than three steps, maybe tone it down a little bit more up until
+three. That is for people just starting out, people that are have been in the industry for longer. Uh do know that
+that is a a good thing. And what we've also seen, uh, funny enough, is people sending one to two subsequences. Um,
+making the copy extremely conversational, right? So something like, "Hey, we saw something uh with one
+of our providers. We did a case study. Most likely your provider is on that list. Would you like to receive it?" Like you're not even selling at that
+point. And that is what Google really values. The fact that you're not like super pitching into your first cold
+emails, making the copy conversational has outperformed even our own campaigns. Again, I have successful templates that
+get me an 8% reply rate that consistently 50% positive engagement, right? So engagement itself is not the
+issue, but again, copy fatigue is still happening. what we did um literally we did this by
+November 15 so almost about a month ago we started launching a campaign where it was a very conversational tone again in
+my case I've built a brand so it's easier for me to just send like hey you know I see you're in the cold email space we did this this and this would
+you like to receive it something like a WhatsApp and this is something that I I'm usually telling
+people like if you wouldn't be able or if it sounds too formal to send to a friend on a WhatsApp maybe you have to
+tone it down and again it goes against all the best practices because if you're selling to enterprise of course you have
+to follow like specific guidelines but again it's just understanding your users um when it comes down to sending volume
+funny enough uh what we have seen and again please everyone take this with a grain of salt this is not a recommendation we see clients that are
+getting extremely high retire rates I'm talking about maybe you know 10 15 even 20% in some cases at large scale because
+of the a very attractive offer that they're sending to and they have been able to push their email volume to maybe
+40 and even 50 emails from a mailbox per day. So, it's almost like twice the volume that you would normally send from
+a mailbox. The main idea is, well, if Google is, you know, promoting mailboxes that have great engagement and positive
+engagement at that and you keep on having that thread of back and forth communication with your customers, then
+shouldn't I be able to increase my volume without being affected? And so far, again, from the test we have seen
+over the past month, it seems to work out great for them and reply doesn't decrease, which is very interesting,
+right? people that were sending uh you know from 30 mailboxes uh 30 emails per day,
+they're now being able to send almost 1,900 emails on a daily basis by just doubling that um that sending volume
+because the reply rate suggests that you can do that. So that is the only thing that if you have if you're someone that
+has a 10% reply rate, 15% reply rate, give it a shot with maybe two to three mailboxes depending on how many
+mailboxes you have and increase that volume. um most likely your reply rates are not going to get affected and you're
+going to be able to squeeze more emails out of that same list and without having to buy extra infrastructure.
+Okay, very good. Uh what about domains and DNS records? Uh are you doing
+anything with age domains? Are you seeing any difference? And you already mentioned one change to DNS records.
+I'll mention one more that we're now teaching as a gold standard is no more tracking domains. Um all of the CNAME
+records pointing to instantly. I don't know if it makes a difference, but it's just like an obvious
+fingerprint that I don't think needs to be there because we're not tracking replies, clicks, opens anymore. We're
+tracking replies, not clicks or opens. So, there's no reason to really have it there. Uh we're not including the unsubscribe link. Uh so, that's one
+thing that I'm teaching. Anything else that you're seeing, testing, teaching?
+So, regarding domain um H domains, we're actually launching a super high scale uh
+test. Again, we're keeping quiet until we have more more context. Um, but so
+far again, we we're working at least with Mission specifically. Um, we have worked with lot lots of investment
+banking and private equity firms that they need to send tons of emails to their credited investors and they have to do it from a specific domain that is
+their company domain because of JDPR, CCPA like your financial institutions. they have to adapt to them and what we
+have done for for a lot of them is they need to send for example 120,000 emails per day from a single domain. So how do
+you even go about it just like you were saying like if you were to do this with active campaign or with um you know
+Mailchimp or sending blue or whatever the case might be most likely you're going to get into the input folder for
+like one to two days. What we have done with them is basically creating an army of subdomains. So a subdomain would be
+something like meet.google.com or mail.goole google.com sheets.google.com. Each one of these subdomains inherits
+the domain's reputation. And in our case, again, we have a product that does API sending uh for high sales. So, very
+similar to to the transactional marketing side of things. We're sending 500 cold emails per day from each of
+these subdomains and they're inboxing even to the toughest of recipients, Outlooks, I mean at Outlooks, at
+Hotmails, at Yahoos, at AOL, etc., which are again tougher to get into the box
+folder for. In their case, it's almost like an opt-in recipient list. So, it's a little bit different. Uh but the
+majority of them are not like it's it's in the sense that they have the approval to contact these people, but they haven't been opted into the platform.
+And it just goes to show that, you know, high volume sending uh via API can be a
+way to go. And I I'm more than happy to share more details on that, but it's basically not even sending from
+mailboxes. And I I'll say something. You don't need mailboxes to this is like a mail gun or uh a send
+grid approach using API and subdomains. And those subdomains, the benefit of them, like you mentioned, they inherit
+the reputation of the primary domain. And if they get burned, you stop using that subdomain. Your
+primary domain is fine. You go on to a different subdomain. Pretty much. Pretty much. Yeah. It's not a practice most people
+use. Um I don't think a lot of people even know about it. That is the main thing. Yeah,
+we could definitely do a follow-up episode specifically on that. I'd love to to pick your brain a little bit deeper if you have, I guess, a primary
+domain that has reputation that you can spin off of. Very good. Uh, okay.
+Any other big big news to share, things you want to chat about? The big other thing I had on my agenda was this this
+kind of came right after the wave of Google legacy panel bans. And I've been talking to a lot of people in the
+industry and you know myself, my clients included, lost some of these panels. Uh took the domains that were attached to
+those panels and moved them over to things like mission inbox to create new mailboxes on them. Uh some clients are
+experiencing issues, some clients are not. I'm wondering if if potentially Google has some secret blacklist that
+they're not publishing that those domains are on or or what you're seeing there.
+Yeah. So honestly, I don't think any any person that migrated domains from let's
+say Google uh because they got locked out of that account. So you cannot recreate them in another Google account, but they either moved it into a
+Microsoft account or an SMTP of some sort if they allowed or opened up the DNS records. I don't think a single one
+of them has faced issues if the domain didn't have any underlying issues before migration. What do I mean by that? If
+your domain had just been in warm-up uh for say two to three weeks and it never sent a single cold email and you have
+done a placement test to show that it was actually landed in the inbox folder, the domain reputation stays with that domain. It doesn't stay with the MX
+record of who you were sending to. Especially if the provider that you're migrating is trustworthy, has good reputation, good use cases. So again, we
+have actually bunch of clients that we migrate even today. um like hey I have all these domains like maybe 100 domains
+that I need to you know can I use them the answer usually is we can move them we usually do a placement test right
+away uh we create one single mailbox to see if it's even worth creating or or using them and based on those results we
+keep on uh increasing that volume but I think in a nutshell the essence is if
+your domains had underlying issues changing ESPs is not going to fix it if your mailboxes didn't have any issues or
+if your domains didn't have any issues then you can start literally resuming sending that day without seeing anything. Um, if you want to allow for
+maybe two to three days of warm up, like if you created a on a Friday and you leave the mailboxes to warm up for two
+to three days so that the ESPs know, okay, this domain is now sending from this IP with this MX record, fine, but
+it's not even needed. It's not even required. So that is what we have seen. We actually have a lot of like great
+responses from clients saying, hey, like this actually, you know, saved my butt because I had I was about to turn a
+client and I couldn't wait two weeks to to resume my sending. So they just did that and it goes back to just to repeat
+it one third time. If your domain didn't have issues, you shouldn't have issues with the new thing. If you're facing
+issues, most likely it is either the copy that you were sending in the past or the fact that your domain had just a
+bad reputation score before migration. Okay, love that. That's super helpful. Uh, so I'd love to share one thing that
+I'm telling uh my clients to do in the interim if they're not inboxing 100% to Google just so they because if you're if
+you're hitting spam 100% of the time you're emailing Googles, you may as well turn your campaigns off and stop emailing the Googles. So you're just
+going to hurt the reputation even further, waste those leads. Uh, so
+there is I'm going to share my screen just to demonstrate this thing. if I can get Oh,
+Riverside to allow me to. Never mind. I'm not going to share my screen. I'm going to post this uh after at the end
+of our interview. But the uh the essence of it is in instantly in most of these cold email sequencers when you upload
+the leads to a campaign, they go through and categorize the leads, Google, Microsoft, uh Zoho, whatever, whatever
+that uh that provider is. And then you can filter by that provider and just
+remove those those Googles from the campaign for the time being. So that you're only sending to Microsoft that
+you're inboxing 100% to. So do the placement test. See, oh I'm
+inboxing 50% to Google, 100% to Microsoft. Let's grab all the Googles
+and put them into this drafted campaign that we're going to start once we fix the deliverability issue. And now all of
+a sudden, you're going to see a 2, three, 4x increase in your reply rates. and a healthy campaign once again. Uh,
+and in my experience over the past decade of doing this cold email thing, I would I would agree with you. 3 to 6
+months and it's going to be like it never happened and 2026 we're going to be talking about remember when Google
+did did that thing and it was a pain in the ass to to inbox to Google. Uh, so if
+if the pattern continues uh as history has taught me it does, uh, I think 3 to
+six months from now we're going to be looking looking back and laughing at this. We're bad. And again, it's it's a good practice what you're saying. Just
+prepare just like we did with Microsoft. Everybody started moving Microsoft mailboxes. That's fine. One thing uh
+extra note that I would like to add, if you're doing a placement test, maybe do two. And the reason for that is do a
+placement test with something very conversational like even talking to a friend like, "Hey, yeah, I'm going to be in in Miami um next week. Can we grab up
+lunch?" That should get into the inbox folder. Give me one second. I'm about to go up a little bit.
+Yeah, you're good. And that's a that's a good point because the copy there's so many factors that in are involved in getting into the inbox. Copy has become
+such a big one. Um so you're right. Doing the inbox test with the copy that you're currently using isn't going to
+tell you the exact reason that you're not hitting the inbox. If you want to find the reason, you have to do a couple
+different placement. Yeah. Go ahead. I'll let you finish your finish. So it's basically just two tests. If your emails, if you're not
+seeing responses from Google and you do a placement test with your copy and it
+shows up as spam, it doesn't necessarily mean that that domain is in the spam folder forever. What it most likely
+means because what we have seen lately is that copy is the first thing that gets filtered as spam. So what you
+should do is okay, can I change my copy ever so slightly to the point that I can start inboxing
+yet again? And what we usually see in I would say maybe 80% of the cases is guys, you just have one specific phrase
+or one thing in your signature, one thing in your hookline that was making the emails go into the spam folder. And
+again, it it requires more time. And I think at this point in time, we have to be more mindful about every single test
+that we do. We have we should have SOPs on how to test for spam. Um because again, we see this pretty much every
+single day. We have clients saying, "Hey guys, my mailboxes are not landing. Like I'll I'll cancel whatever." I tell them, "Sure, maybe you want to cancel. will
+cancel, but let's meet let's let's do some placement testing to get to the wits of it because again it's not necessarily an infrastructure issue if
+you keep on sending the same copy that got you into the spam folder in the first place. No infrastructure will get it into the inbox folder. So
+understanding that there's layers to you know the deliverability, there's the infrastructure layer, there is a
+copyrightiting layer. If you manage both of them separately and you understand that each one of them has its own
+repercussions, then you're most likely going to be extremely successful in code emailing because you know what to look for. So
+creating SOPs, watching J's content, taking a look into the insiders community to see what other people are
+doing and then just, you know, start adjusting your SOPs. I would say that that's most likely the main thing that I want to take people um or what I have
+people take from this call. Go into your SOPs, change them, and do different placement testing. one with your copy,
+one without your copy and see how that placement uh test looks in difference. Very well said, Tony. Couldn't I
+couldn't agree more. Okay, I want to leave the audience with just uh kind of a final call to action. Um use good
+mailboxes, use good infra. Uh we use Tony's mission inbox. How many mailboxes do we have with you guys now? That went
+from like zero to 10,000 pretty quick. I was I was going to say like it's getting close.
+It's been a lot. It's been a lot. Uh they do a great job. So, if you're looking for a really high quality SMTP provider, I couldn't
+recommend uh Tony and Mission Inbox enough. And if you sign up for his service and you're not 100% in Google
+right away, this is why uh it's everybody, of course. Um so, Tony, thank you for
+for joining me for for this call. Uh if anyone's listening and they want to stay
+like finger on the pulse of what's going on in this world, make sure that you're inside of our communities. The lead
+genen insiders is my kind of pillar community for lead generation and cold email. That's where I am every day
+talking about this stuff. So, make sure to get in there. Everything's going to be linked below, including a discount to mission inbox if you do want to get
+started. Uh, so Tony, thank you again. It's been uh it's always a pleasure.

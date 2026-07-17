@@ -1,0 +1,272 @@
+AgencyOS Context Sync
+Last Updated: 2026-01-17 22:34:16
+
+
+
+AGENTS.md
+# AgencyOS: Antigravity Agent Rules
+# Stack: Python + Google Workspace API + Modal
+# Version: 2.0 (Pioneer Pattern)
+
+## 🤖 Agent Persona
+You are **Antigravity**, a high-leverage AI engineer.
+- **Mission**: Build a scalable, autonomous lead generation system.
+- **Mode**: "Profit Gap" Strategy (Quality > Quantity).
+- **Style**: Direct, dense, and architectural. No fluff.
+- **Alignment**: ALWAYS Check `MEMORY.md` (North Star) & `STATUS.md` (Headspace) before planning.
+
+## 🧠 Strategic Principles (The "Fence")
+1. **Architecture First**: Never write code without a clear path (STATUS.md).
+2. **Determinism**: Use "Style Cloners" (Python scripts with hardcoded values) over "Vibe Coding" (LLM guesses).
+3. **Resources**: 
+   - Never burn paid API credits for testing (Mock first).
+   - Use `token.json` for persistent Auth (never ask user for manual login).
+   - "Golden 10": Establish 10 perfect examples manually, then scale.
+4. **Source of Truth**: Never re-engineer or "mock" master assets if a User-provided sheet exists. Use exactly what the User provides in `STATUS.md` or `golden_assets.json`.
+
+## 📂 File Structure Standards
+**The "Pioneer Pattern" (Root-Level Context):**
+- `/AGENTS.md`: THIS file. The immutable Constitution. (Read First).
+- `/STATUS.md`: The dynamic Dashboard. Current Phase, Objectives, and Next Steps. (Read Second).
+- `/MEMORY.md`: The Long-Term Brain. Strategic decisions, failure logs, and architectural patterns. (Read Third).
+- `/scripts/`: All executable logic (Python).
+- `/templates/`: Static assets (CSVs, Docs).
+
+## 🔨 key Commands
+- **Auth Repair**: `python scripts/refresh_google_oauth.py`
+- **Style Check**: `python scripts/rebuild_golden_sheet_bulletproof.py`
+- **Lead Gen**: `python scripts/batch_generate_assets.py`
+
+## 🏁 Session End Protocol
+1. **Update Context**: Refresh `STATUS.md` and `MEMORY.md`.
+2. **Update Artifacts**: Mark progress in `task.md` / `implementation_plan.md`.
+3. **Archive**: Move unused scripts/logs to `_archive/`.
+4. **Sync Context**: Run `python scripts/sync_context_to_doc.py` to update Google Doc.
+5. **Prune**: Verify `MEMORY.md` < 100 lines. (Prevent Context Bloat).
+6. **GitHub Sync**: `git add .`, `git commit -m "..."`, `git push`. (Run sequentially).
+
+## 🚫 Anti-Patterns (Do NOT Do)
+- **Deep Nesting**: Do NOT create `.agent/plans/specs/v1/...`. Keep it flat.
+- **Ambiguous Styling**: Do NOT assume "Default formatting". Use Hex Codes (#FFFFFF), Pixel Heights (40px), and Alignment (Center).
+- **Ghost Changes**: Do NOT edit files without verifying the path exists.
+
+## 🎨 Golden 10 Style Spec
+**Sheet**:
+- **Font**: Arial/Inter, Size 10.
+- **Header**: Row 1 = Column Names. Dark Grey BG (#434343), White Text, Bold. Frozen.
+- **Intro**: NONE. (No text block above headers).
+- **Rows**: 40px Height (Breathing Room).
+- **Cols**: "Company" (250px), "Email" (200px).
+- **Text**: Vertically Centered, Wrapped.
+
+**Doc**:
+- **Margin**: 1 inch.
+- **Title**: H1 (Arial 24, Bold).
+- **Body**: Arial 11, 1.15 spacing.
+- **Intro**: "Executive Brief" style.
+
+---
+*Maintained by: Antigravity AI*
+
+
+
+STATUS.md
+# Active Task (Working Memory)
+
+> **Current Session State & Objectives**
+
+## 🧠 Current Headspace / Focus
+> **Latest Context**: Focusing on SoftDev niche expansion while maintaining fCFO campaign quality.
+> **Critical Alignment**: Ensure "Golden Content" quality is perfect before scaling (avoid "StartEngine" error).
+
+## Status
+- **Phase**: **ANTIGRAVITY SETUP COMPLETE** - Best practices implemented
+- **Outcome**: Agent skills, workflows, and rules configured per Antigravity deep dive
+- **Next Step**: Test `/session-start` and `/session-end` workflows in new sessions
+
+## Current Objectives
+1. [x] **Antigravity Best Practices Setup**
+   - [x] Analyzed deep dive document
+   - [x] Created 3 Agent Skills (lead-generation, asset-cloning, session-protocol)
+   - [x] Created 2 Workflows (/session-start, /session-end)
+   - [x] Populated GEMINI.md with global rules
+   - [x] Added workspace rules via Customizations panel
+2. [x] **Root Directory Cleanup**
+   - [x] Archived 35+ files (research MDs, logs, backups)
+   - [x] Moved data files to `data/`
+   - [x] Deleted junk files (null, duplicate tokens)
+   - [x] Root now: 11 files + 10 folders (was 62 files)
+3. [ ] **Niche Expansion (SoftDev)**
+   - [x] Context Sync: Added `offer_icp.md` (Business) to Google Doc
+   - [x] Context Sync: `scripts/sync_context_to_doc.py`
+   - [x] Upload 8,519 leads to `SoftDev Leads Master` Sheet
+   - [x] Create `execute_softdev_swap.py`
+   - [/] Fix Golden 10 Content (Found "StartEngine" artifacts)
+   - [ ] Scale Production
+
+## Session Summary (Jan 17, 2026 - Evening)
+- **OAuth Fix**: Swapped old "web" credentials to "Desktop client Antigravity" (`921220435908-...`). Token now auto-refreshes.
+- **Recommendation**: Move OAuth consent screen to Production mode to avoid 7-day testing expiry.
+
+## Key Files Created
+| File | Purpose |
+|------|---------|
+| `~/.gemini/GEMINI.md` | Global safety rules |
+| `.agent/skills/*/SKILL.md` | Agent skills |
+| `.agent/workflows/*.md` | Slash command workflows |
+
+## Metrics
+- **Root Files**: 11 (was 62)
+- **Skills Created**: 3
+- **Workflows Created**: 2
+
+
+
+MEMORY.md
+# Project Memory
+
+> **The Single Source of Truth for Strategy, Decisions, and Learnings.**
+> *Read this file to understand HOW we work and WHY we made past choices.*
+
+---
+
+## 🌟 North Star
+> **Goal: Build a $10k/mo outbound agency for Fractional CFOs**
+> **Current Offer**: 30-Day Free Trial ($0 Setup). Post-trial: $250/call (Performance).
+> **Strategy**: "Profit Gap" (Quality > Quantity). Hyper-personalized assets.
+> **Targets**: fCFOs + Custom SoftDevs.
+
+## Active Architecture: Asset Cloning
+- **Strategy**: Clone & Personalize (NO GENERATION).
+- **Golden Source**: "Placeholder" Set (1 Sheet + 5 Docs).
+- **Rule**: For every lead, global replace `{{FIRST_NAME}}` -> "Lead Name".
+- **Parallelism**: Use 10 OAuth Tokens for parallel API calls.
+
+## 1. Strategic Principles (The Playbook)
+
+### Resource Efficiency
+1. **Never burn paid API credits for testing.** Mock first.
+2. **Check cache BEFORE API calls.** (`apify_leads.json`)
+3. **Pre-generate where possible.** Templates > per-request generation.
+
+### Architecture & Code
+1. **Push complexity to Python.** Deterministic code > AI interpretation.
+2. **Constants over magic numbers.** Define at top of file.
+3. **Trace dependencies.** `grep` before changing ANY value.
+
+---
+
+## 2. Golden Sheet Spec (V6 Standard)
+
+| Element | Value | Notes |
+|---------|-------|-------|
+| Row 1 Height | 275px | Reveals DK signature |
+| Row 2 Height | 10px | Buffer row |
+| Column F Width | 400px | Email column |
+| Column G Width | 400px | Lead Magnet column |
+| Tab Name | `{Name}'s 5 Specific Leads` | Personalized |
+
+### Content Replacements
+- `No Bounds` -> `Solartech`
+- `SaaS` / `saas` -> `tech companies`
+- `Kelly` -> Lead's first name (GDocs only)
+
+---
+
+## 3. Critical Failure Learnings
+
+- **[Batch Jobs]**: For long-running jobs, use `modal deploy` + spawn async.
+- **[Row Heights]**: V5 used 350px (WRONG). Golden spec is 275px.
+- **[Token Scopes]**: Not all OAuth tokens have `docs` scope. Check before using.
+- **[Google Emails]**: Instantly rejects Gmail addresses. Filter before campaign.
+- **[Link Mismatches]**: GDoc links in emails must match Lead Magnet column.
+- **[OAuth Clients]**: Use "Desktop client Antigravity" credentials (client ID `921220435908-...`). Old "web" client causes `invalid_scope` errors. Move consent screen to **Production** mode to avoid 7-day testing expiry.
+
+---
+
+## 4. Decision Log
+
+### [2026-01-17] Antigravity Best Practices Setup
+- **Action**: Created Agent Skills, Workflows, and global rules per deep dive doc.
+- **Files**: `GEMINI.md`, `.agent/skills/*/SKILL.md`, `.agent/workflows/*.md`
+- **Root Cleanup**: Archived 35+ files, root now has 11 files (was 62).
+- **Workflow**: Use `/session-start` and `/session-end` for structured sessions.
+
+### [2026-01-17] Campaign Launch Prep
+- **Action**: Removed 467 Google-based emails from master sheet.
+- **Result**: 1,147 leads remain, synced with Instantly campaign.
+- **Export**: `instantly_import_20260117_032204.csv`
+
+### [2026-01-17] V6 Asset Rectifier Execution
+- **Context**: V5 script used wrong row height (350px instead of 275px).
+- **Solution**: Ran `v6_asset_rectifier.py` on 1,000+ assets.
+- **Fixes Applied**: 275px height, content replacements, GDoc syncs.
+- **Command**: `python scripts/v6_asset_rectifier.py --force --workers 25`
+
+### [2026-01-16] V5 Asset Rectification
+- **Trigger**: "No Bounds" branding and "SaaS" terminology found.
+- **Status**: Superseded by V6.
+
+### [2026-01-17] Context Sync & SoftDev Expansion
+- **Context Sync**: Docs > Files. `scripts/sync_context_to_doc.py` pushes core MD files to Google Doc `1T0b...`.
+    - **Format**: Courier New, 10pt (Markdown style). No Golden assets (too large).
+- **SoftDev Expansion**:
+    - **Master Data**: 8,519 leads uploaded to `SoftDev Leads Master` (ID: `1Oxw...`).
+    - **Logic**: `execute_softdev_swap.py` dedicated for this niche.
+    - **Issue**: Golden Source (PLANEKS) has "StartEngine" content. **Must fix before scaling.**
+
+### [Prior Decisions]
+- **[2026-01-14] Flat Structure**: Removed nested folders.
+- **[2026-01-13] Golden 10**: Curate 10 perfect leads manually, then clone.
+
+---
+
+## 5. Key Scripts Reference
+
+| Script | Purpose |
+|--------|---------|
+| `v6_asset_rectifier.py` | **CURRENT** - Unified asset fixing with parallelism |
+| `emergency_fix.py` | GDoc link sync + 5th lead fix |
+| `remove_google_emails.py` | Filter Gmail from master sheet |
+| `export_instantly.py` | Generate CSV for Instantly import |
+
+---
+*Maintained by: Antigravity AI | Last Updated: Jan 17, 2026*
+
+
+
+docs/sops/offer_icp.md
+# Offer & ICP Details
+
+## Your Offer
+| Component | Details |
+|-----------|---------|
+| Service | Done-for-you cold outbound lead generation |
+| Setup Fee | **$0 upfront** |
+| Pricing | **$250 per qualified call booked** (starts AFTER 30-day trial) |
+| Risk Reversal | **30-Day Free Trial** (Unlimited calls during trial) |
+| Condition | **Mandatory Video Testimonial** required for trial |
+| No Retainers | Pure performance-based |
+
+## Target Market: Fractional CFOs & Custom SoftDevs
+
+
+## Industries fCFOs Serve (Lead Magnet Niches)
+- **SaaS & Technology**: 40-45%
+- **Manufacturing**: 15-20%
+- **Professional Services**: 12-15%
+- **Retail/E-commerce**: 10-12%
+
+## fCFO Pain Points
+1. Feast-famine cycle (93% rely on referrals)
+2. High implicit CAC ($1,500-$3,000 per client)
+3. No systematized lead gen
+4. Risk aversion to retainer vendors
+
+## Your Competitive Advantage
+- Risk on vendor (you), not buyer
+- $250/call vs $2K-$25K/month retainers
+- **30-Day Free Trial** (vs 90-day locks)
+- 14-21 days to first call
+
+
