@@ -1,100 +1,106 @@
 # Agency OS (Antigravity)
 
-**Autonomous outbound production system** — quality-first lead magnets and personalized campaigns for Fractional CFOs / B2B niches, orchestrated by an agent runtime (“Antigravity”) on **Modal + Google Workspace**.
+**Autonomous outbound factory** for quality-first lead magnets and campaigns — batch personalization on **Modal** + **Google Workspace**, operated under agent rules (constitution, memory, status).
 
-| | |
-|---|---|
-| **Author** | [Deekshak SS](https://deekshak.site) |
-| **Portfolio** | [deekshak.site](https://deekshak.site) |
-| **Era** | Late 2025 – early 2026 |
-| **Related private backup** | `Deekshak11/Agency_OS` |
+[![Portfolio](https://img.shields.io/badge/Portfolio-deekshak.site-0ea5e9?style=for-the-badge)](https://deekshak.site)
+[![Author](https://img.shields.io/badge/Author-Deekshak%20SS-1e293b?style=for-the-badge)](https://github.com/Deekshak11)
+
+> Public **architecture + runners + SOPs** snapshot. No client lead lists, tokens, or full private runtime.
 
 ---
 
-## North star
+## Problem
 
-> Build a **performance outbound engine** for Fractional CFOs (and adjacent B2B niches):  
-> **$0 setup · 30-day free trial · $250 / qualified call** after trial.  
-> Strategy: **“Profit Gap”** — quality assets over spray-and-pray volume.
+Spray-and-pray outbound destroys boutique trust. Fractional / advisory offers need **hyper-personalized** magnets at volume without a $25k/mo content army.
 
-## What it is
+## Solution pattern
 
-Not a chatbot demo. A **factory**:
-
-```
-Verified leads (Apollo-class)
-        ↓
-Modal runner (token pool + concurrency)
-        ↓
-Clone “Golden” Sheets + GDocs (style-preserving personalization)
-        ↓
-CSV / campaign handoff (Instantly-class when keys available)
-        ↓
-Telemetry (Glass Box logs on Modal volumes)
-```
-
-**Antigravity** is the agent persona + operating system for this repo: constitution (`AGENTS.md`), live dashboard (`STATUS.md`), long-term brain (`MEMORY.md`), deterministic Python over vibe coding.
-
-## Architecture (summary)
-
-| Layer | Role |
-|-------|------|
-| **Agent constitution** | `docs/AGENTS.md` — rules, session end, anti-patterns |
-| **Memory** | `docs/MEMORY.md` — north star, decision log, golden specs |
-| **Status** | `docs/STATUS.md` — phase, objectives, blockers |
-| **Python production** | `scripts/modal_verified_runner_turbo.py`, `verified_asset_generator.py` |
-| **Auth** | Modal volume `agency-os-tokens` + cloud refresh (never bake keys into images) |
-| **Google Workspace** | Drive / Sheets / Docs API for clone + personalize |
-| **Skills** | `.agent/skills/` — lead-generation, asset-cloning, session-protocol |
-
-Full diagram: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
-
-## Key production patterns (learned the hard way)
-
-1. **Verified Clone Pattern** — clone a production asset that already works; don’t re-generate from contaminated masters.  
-2. **Autonomous Volume Pattern** — OAuth tokens live on a Modal volume mounted by refresher + runners.  
-3. **Hard-fail over silent fallback** — low-quality turbo batch rejected; generator refactored to fail loudly.  
-4. **Golden Sheet / GDoc specs (V6–V7)** — pixel heights, bolding runs, smart-chip naming rules.  
-5. **Batch economics** — 1k-lead production batches with 20+ OAuth tokens and concurrency.
-
-## What’s in this public repo
-
-| Path | Contents |
-|------|----------|
-| `docs/` | Architecture, PRD, sales-suite design, SOPs, research notes |
-| `scripts/` | Production runners + utilities (no credentials) |
-| `.agent/skills/` | Agent skills for lead gen & cloning |
-| `docs/BIZ_PROJECT_CONTEXT.txt` | Synced Antigravity context (Biz Project) |
-
-**Not published:** OAuth tokens, credential files, production lead CSVs, Instantly keys, private client data.
-
-## Stack
-
-Python · Modal · Google Workspace APIs · Perplexity research · campaign ESP (Instantly-class) · OpenCode / Antigravity agent workspace
-
-## Quick start (local, no secrets)
-
-```powershell
-# Review docs first
-# docs/ARCHITECTURE.md · docs/MEMORY.md · docs/AGENTS.md
-
-# Scripts expect Google OAuth + Modal secrets configured locally (never commit)
-cd scripts
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-# pip install -r requirements if present
-# modal run modal_verified_runner_turbo.py  # after secrets
+```text
+Lead source (Apollo-class)
+        │
+        ▼
+┌───────────────────────────────┐
+│  Modal production runners      │
+│  · golden template clone       │
+│  · lead-specific personalize   │
+│  · hard-fail on low quality    │
+│  · OAuth token pool on volume  │
+└───────────────┬───────────────┘
+                │
+                ▼
+ Google Sheets + Docs (asset plane)
+                │
+                ▼
+ Campaign / ESP handoff
 ```
 
-## Relation to other projects
+### Verified Clone Pattern
 
-| Project | Link |
-|---------|------|
-| Show-Rate Guardian | [show-rate-guardian](https://github.com/Deekshak11/show-rate-guardian) |
-| Signal OS / Mission Control | [signal-os](https://github.com/Deekshak11/signal-os) |
-| Business OS product | [business-os](https://github.com/Deekshak11/business-os) · [app.deekshak.site](https://app.deekshak.site) |
+1. Maintain **production-perfect** golden Sheet / GDoc templates  
+2. Clone at scale via Workspace APIs  
+3. Personalize per lead (research + copy systems)  
+4. **Hard-fail** instead of silent low-quality fallbacks  
+5. Auth tokens refresh on a **Modal volume** shared by runners (never baked into images)
+
+### Agent operating system
+
+Antigravity / OpenCode-style loop:
+
+```text
+Always read:  AGENTS → STATUS → MEMORY  before work
+Write back:   STATUS / MEMORY after meaningful runs
+```
+
+Docs in `docs/` include SOPs, architecture, strategies, and system notes.
+
+---
+
+## Architecture highlights
+
+| Layer | Tech / practice |
+|-------|-----------------|
+| Compute | Modal batch runners |
+| Assets | Google Workspace APIs |
+| Auth | Multi-OAuth token pool on Modal volume |
+| Quality | V7-style hard-fail generators |
+| Ops | AGENTS / MEMORY / STATUS files |
+| Telemetry | Glass-box run logs (see SOPs) |
+
+```text
+┌────────────┐   ┌─────────────────┐   ┌──────────────────┐
+│ Lead ingest│ → │ Modal factory   │ → │ Workspace assets │
+└────────────┘   │ verified runners│   │ Sheets / Docs    │
+                 └────────┬────────┘   └────────┬─────────┘
+                          │                     │
+                          ▼                     ▼
+                 Agent context files     Campaign handoff
+                 (AGENTS/STATUS/MEMORY)
+```
+
+---
+
+## Repo layout
+
+```text
+docs/           Architecture, SOPs, strategies, setup, research notes
+scripts/        Production and utility runners (sanitized)
+README.md       This file
+```
+
+## Security
+
+- No live OAuth tokens, service account keys, or client CSVs in this repo  
+- Private full backup remains offline / private GitHub  
+- Treat scripts as **patterns** — wire your own credentials  
+
+## Related
+
+| Repo | Role |
+|------|------|
+| [business-os](https://github.com/Deekshak11/business-os) | Live multi-agent product |
+| [automation-systems](https://github.com/Deekshak11/automation-systems) | n8n GTM graphs |
+| [deekshak-portfolio](https://github.com/Deekshak11/deekshak-portfolio) | Hire site |
 
 ## License
 
-MIT for original documentation and scripts in this public snapshot.  
-Third-party APIs subject to their terms. Private operational data remains private.
+MIT for original code; third-party APIs subject to their terms.
